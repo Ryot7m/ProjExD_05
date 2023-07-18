@@ -500,7 +500,7 @@ class BeamPlus(pg.sprite.Sprite):
         self.rect.centerx = bird.rect.centerx+bird.rect.width*self.vx
         self.speed = 30 #大きさを小さくした分性能の差を無くすためにスピードを上げる
         
-        def update(self):
+    def update(self):
             """
             ビームを速度ベクトルself.vx, self.vyに基づき移動させる
             引数 screen：画面Surface
